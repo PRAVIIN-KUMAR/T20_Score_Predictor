@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title="T20 Score Predictor", layout="wide")
 
 # Load the trained model
-pipe = pickle.load(open(r'C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\pipe.pkl', 'rb'))
+pipe = pickle.load(open(r'pipe.pkl', 'rb'))
 
 # Teams and cities
 teams = ['West Indies', 'Pakistan', 'India', 'South Africa', 'England', 'Australia', 'New Zealand', 'Sri Lanka', 'Bangladesh']
@@ -48,21 +48,21 @@ st.markdown("---")
 
 logo_col = st.columns([1, 2, 1])
 with logo_col[1]:
-    st.image(r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\cricket_logo.png", width=150)
+    st.image(images/cricket_logo.png", width=150)
 
 st.markdown("## Participating Teams", unsafe_allow_html=True)
 st.markdown("---")
 
 # Team logos (small)
 team_logos = {
-    "West Indies": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\west_indies.png",
-    "Australia": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\australia.png",
-    "Bangladesh": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\bangladesh.png",
-    "India": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\india.png",
-    "New Zealand": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\new_zealand.png",
-    "Pakistan": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\pakistan.png",
-    "South Africa": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\southafrica.png",
-    "Sri Lanka": r"C:\Users\admin\Downloads\Praveen Project\my project\T20_Score_Prediction\images\sri_lanka.png"
+    "West Indies": "images/west_indies.png",
+    "Australia": "images/australia.png",
+    "Bangladesh": "images/bangladesh.png",
+    "India": "images/india.png",
+    "New Zealand": "images/new_zealand.png",
+    "Pakistan": "images/pakistan.png",
+    "South Africa": "images/southafrica.png",
+    "Sri Lanka": "images/sri_lanka.png"
 }
 
 cols = st.columns(4)
