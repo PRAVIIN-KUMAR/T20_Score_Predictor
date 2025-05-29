@@ -48,7 +48,7 @@ st.markdown("---")
 
 logo_col = st.columns([1, 2, 1])
 with logo_col[1]:
-    st.image(images/cricket_logo.png", width=150)
+    st.image("images/cricket_logo.png", width=150)
 
 st.markdown("## Participating Teams", unsafe_allow_html=True)
 st.markdown("---")
