@@ -4,8 +4,7 @@ A machine learning application that predicts the final score of a T20 cricket in
 
 ## 🌐 Live App
 
-👉 [Try the live app here](https://yourusername-yourappname.streamlit.app)  
-_Replace with your deployed Streamlit URL_
+👉 [Try the live app here](https://t20scorepredictor-hvdxregmtfyzluqpfycdxk.streamlit.app/)  
 
 ---
 
