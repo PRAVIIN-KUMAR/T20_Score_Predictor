@@ -10,7 +10,7 @@ from PIL import Image
 st.set_page_config(page_title="T20 Score Predictor", layout="wide")
 
 # Load the trained model
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = pickle.load(open(r'pipe.pkl', 'rb'))
 
 # Teams and cities
 teams = ['West Indies', 'Pakistan', 'India', 'South Africa', 'England', 'Australia', 'New Zealand', 'Sri Lanka', 'Bangladesh']
