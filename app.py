@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from sklearn.pipeline import Pipeline
+from sklearn.ensemble import RandomForestRegressor
 from PIL import Image
 
 
